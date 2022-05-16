@@ -1,0 +1,104 @@
+body{
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #505050
+}
+
+header {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+
+
+h1 {
+  padding-left: 15px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+h1 span {
+  font-size: 20px;
+}
+
+.Navi {
+  text-align: right;
+  margin-bottom: 15px
+}
+
+.Navi li {
+  display: inline-block;
+  margin-right: 40px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-bottom: 1px solid #505050;
+  padding-left: 3px;
+}
+
+.Navi li a {
+  color: #505050;
+  text-decoration: none;
+}
+
+.mainVisual {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hstyle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hstyle span {
+  font-size: 40px;
+  display: inline-block;
+  border-bottom: 2px solid #505050;
+}
+
+.Aboutsection {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+
+.Aboutsection p {
+  margin-bottom: 30px;
+}
+
+.Aboutsection dt{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Aboutsection dd {
+  text-align: center;
+}
+
+.Workssection ul {
+  display: flex;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.Workssection li{
+  list-style: none;
+}
+
+.Workssection li img {
+  width: 320px;
+  margin-right: 20px;
+  border: 1px solid #505050;
+}
+
+.Workssection li:last-child{
+ margin-right: 0;
+ }

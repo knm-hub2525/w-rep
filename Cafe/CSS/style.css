@@ -1,0 +1,146 @@
+
+body{
+  padding-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family：'Oswald'、sans-serif;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 0.5em;
+}
+
+h1 span {
+  font-size: 15px;
+}
+
+.globalNavi {
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.globalNavi li {
+   display: inline-block;
+   margin-right: 40px;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 16px;
+   letter-spacing: 1px
+}
+.globalNavi li:last-child{
+  margin-right: 0;
+}
+
+.mainimage {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+
+}
+
+.mainimage img {
+  width: 100%;
+  height: auto;
+}
+
+.abautsection ,
+.newssection {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.hstyle {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 40px;
+  line-height: 2em;
+}
+
+.hstyle span {
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: 2px solid #000000;
+}
+
+.abautsection ul {
+  overflow: hidden;
+  padding: 0;
+}
+
+.abautsection li {
+  float: left;
+  list-style: none;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.abautsection li:last-child{
+  margin-right: 0;
+  }
+
+.abautsection li img {
+  width: 100%;
+  height: auto;
+}
+
+.abautsection h3 {
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.abautsection p {
+  font-size: 14px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.newssection table {
+  width: 100%;
+  border-top: 1px solid #dddddd;
+}
+
+.newssection th{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 10%;
+}
+
+.newssection td {
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 90%;
+
+}
+
+.INSTGRMBT {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.INSTGRMBT a{
+  background: #000000;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+}
