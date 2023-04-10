@@ -1,0 +1,126 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 15px;
+  background-color: #f4f9ff;
+}
+
+img {
+  max-width: 100%;
+}
+/*サイト全体のコンテンツ幅*/
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*中のコンテンツ部分の最大幅*/
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/*ヘッダー*/
+#header {
+  margin-top: 60px;
+}
+
+#header .site-title {
+  width:160px;
+  line-height: 1px;
+  margin-bottom: 15px;
+}
+
+#header .site-title a {
+  display: block;
+}
+
+/*メインビジュアル */
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/*INDEX*/
+#index {
+  background-color: #fff;
+  padding: 30px 0;
+  margin-bottom: 60px;
+}
+
+#index .index-list {
+  margin-left: 20px;
+}
+
+#index .index-list li {
+  margin-bottom: 20px;
+}
+
+#index .index-list li :last-child {
+  border-bottom: 0;
+}
+
+/*DETAIL*/
+#detail .content {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#detail img {
+  width: 270px;
+  margin-right: 60px;
+}
+
+#detail .title {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: solid 1px #dedede;
+  padding-bottom: 20px;
+}
+
+#detail .text dt {
+  float: left;
+}
+
+#detail .text dd {
+margin-left: 80px;
+}
+
+#detail .text dl {
+  border-bottom: solid 1px #dedede;
+  padding-bottom: 20px;
+}
+
+#detail .text a {
+  color: black;
+}
+
+/*フッター*/
+#footer p {
+  font-size: 10px;
+}
+
+/*SP*/
+@media screen and (max-width: 1024px){
+  .inner {
+  padding: 0 40px;
+}
+
+#header,#mainvisual {
+  padding: 0 10px;
+}
+
+#detail .content {
+  flex-direction: column;  /* 縦並びにする */
+}
+#detail .content .img {
+  width: 100%;
+  margin: 0 0 25px 0;
+}
+}

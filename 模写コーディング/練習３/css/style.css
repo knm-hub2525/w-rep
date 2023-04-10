@@ -1,0 +1,127 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/*ヘッダー＾*/
+#header {
+  padding-top: 50px;
+}
+.site-title img{
+  width: 180px;
+}
+
+/*メインビジュアル*/
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/*INDEX*/
+#index {
+  background: #f5f5f5;
+  padding: 50px;
+  margin-bottom: 60px;
+}
+
+.index-inner{
+  border: solid 1px #000000;
+  padding: 30px;
+}
+
+.index-list {
+  margin-left: 100px;
+}
+
+.index-list li {
+  margin: 15px;
+}
+
+/*images*/
+
+.list  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.list li {
+  width: 49%;
+  margin-bottom: 15px;
+}
+
+.list li img {
+  vertical-align: bottom;
+}
+
+
+/*DETAIL*/
+#detail {
+  background: #f5f5f5;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex dl {
+  width: 30%;
+  border-right: solid 1px #333;
+  padding-right: 40px;
+}
+
+.flex dt {
+  font-weight: bold;
+}
+
+.flex dd {
+  margin-bottom: 10px;
+}
+
+.text {
+  padding-left: 40px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.text a {
+  color: #333;
+}
+
+/*フッター*/
+footer p {
+  text-align: center;
+  font-size: 5px;
+}
